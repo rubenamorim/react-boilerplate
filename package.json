@@ -14,11 +14,23 @@
   "keywords": [],
   "author": "rubenamorim",
   "license": "ISC",
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/rubenamorim/react-boilerplate/issues"
   },
   "homepage": "https://github.com/rubenamorim/react-boilerplate#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.14",
     "webpack-dev-server": "^3.1.3"
